@@ -1,0 +1,40 @@
+{
+  "name": "@notiboost/react-sdk",
+  "version": "1.0.0",
+  "description": "Official React SDK for NotiBoost - Notification Orchestration Platform",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notiboost",
+    "notification",
+    "orchestration",
+    "sdk",
+    "react",
+    "hooks",
+    "typescript"
+  ],
+  "author": "NotiBoost",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "@notiboost/browser-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^4.9.0",
+    "rollup": "^3.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notiboost/react-sdk.git"
+  }
+}
+
